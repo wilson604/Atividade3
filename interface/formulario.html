@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form_box">
+
+        <!--FOMULARIO-->
+        <h2 align="center">Formulário</h2>
+        <fieldset>
+        <legend>Informaçoes pessoais</legend>
+        <form action="" method="post">
+            <p>Nome: <input type="text" name="Nome" placeholder="Escreva seu nome" size="60"/></p>
+            <p>Telefone:<input type="Tel" placeholder="(00)00000-0000" maxlength="11" /></p>
+            <p>Data de nascimento: <input type="date"/> </p>
+            <p>Idade: <input type="number"/></p>
+            <fieldset><br>
+                /<fieldset>
+                    <legend>Cadastro</legend>
+            <p>Senha: <input type="password" maxlength="8" />(A senha pode ter até 8 caracteres)</p>
+            <p>Email: <input type="email" /></p>
+        </fieldset>
+            comentarios:
+            <textarea rows="3" cols="10">
+            </textarea>
+            <!--Estrutura de Opções-->
+            <p>Time de futebol:
+                <br />
+             <input type="radio" name="time" value="Brasil"/> Brasil
+             <br />
+             <br />
+             <input type="radio" name="time" value="Colombia"/>Argentina
+             <br />
+             <br />
+             <input type="radio" name="time" value="Mexico"/>Peru
+             <br />
+             <br />
+            </p>
+            <p> Estados Brasileiros:
+                <select>
+                <option value="Goias">Goias</option>
+                <option value="DF">DF</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Paraiba">Paraiba</option>
+            </select>
+
+            </p>
+            <!--Estruturas de checkbox-->
+            <p>
+                <input type="checkbox" name="termos" />
+                vc aceita fazer parte da ceita do HTML!!!
+            </p>
+            <input type="reset" name=reset />
+            <input type="submit" name="submit" />
+        </form>
+            <fieldset>
+                <legend>Dados pessoais Dos Pais</legend>
+                <label>Nome Dos Pais: <input type="text"/></label>
+                <br />
+                <br />
+                <label>CPF: <input type="number" /></label>
+            </fieldset>
+        </div>
+    </div> 
+</body>
+</html>
